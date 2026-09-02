@@ -1,0 +1,10 @@
+apple,5,1200
+banana,10,800
+cherry,3,5000
+date,0,3000
+elderberry,7,4500
+fig,2,2200
+grape,15,900
+honeydew,1,3500
+kiwi,8,600
+lemon,20,300

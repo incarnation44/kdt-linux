@@ -1,0 +1,21 @@
+2026-08-26 09:00:01 INFO  Starting training: yolov8n, epochs=100
+2026-08-26 09:00:02 INFO  Dataset loaded: 700 train / 150 val / 150 test
+2026-08-26 09:00:03 WARN  Found 1 image without label: kimchi_0007.jpg
+2026-08-26 09:00:04 WARN  Empty label file skipped: kimchi_0789.txt
+2026-08-26 09:00:05 ERROR Invalid bbox coordinate in kimchi_0456.txt: x=1.500000
+2026-08-26 09:01:10 INFO  Epoch 1/100 loss=2.4531 mAP50=0.1204
+2026-08-26 09:02:15 INFO  Epoch 2/100 loss=2.1044 mAP50=0.2011
+2026-08-26 09:03:21 INFO  Epoch 3/100 loss=1.8873 mAP50=0.3120
+2026-08-26 09:04:28 INFO  Epoch 4/100 loss=1.7011 mAP50=0.4055
+2026-08-26 09:05:33 WARN  GPU memory usage 92%
+2026-08-26 09:06:40 INFO  Epoch 5/100 loss=1.5522 mAP50=0.4890
+2026-08-26 09:07:45 ERROR CUDA out of memory. Tried to allocate 2.00 GiB
+2026-08-26 09:07:46 INFO  Reducing batch_size 16 -> 8, retrying
+2026-08-26 09:09:00 INFO  Epoch 6/100 loss=1.4801 mAP50=0.5320
+2026-08-26 09:10:05 INFO  Epoch 7/100 loss=1.3990 mAP50=0.5871
+2026-08-26 09:11:12 INFO  Epoch 8/100 loss=1.3211 mAP50=0.6402
+2026-08-26 09:12:18 INFO  Epoch 9/100 loss=1.2874 mAP50=0.6955
+2026-08-26 09:13:25 INFO  Epoch 10/100 loss=1.2103 mAP50=0.7211
+2026-08-26 09:13:26 INFO  Best model saved: runs/train/exp001/weights/best.pt
+2026-08-26 09:13:27 ERROR Failed to export ONNX: opset 17 not supported
+2026-08-26 09:13:30 INFO  Training finished. Best mAP50=0.7211
