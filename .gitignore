@@ -1,5 +1,47 @@
-dataset/
-00_압축보관/
-*.7z
-*.zip
+# ===== 데이터 (보안 규정: 외부 반출 금지) =====
+*.jpg
+*.jpeg
+*.png
+*.bmp
 *.mp4
+*.avi
+dataset/*/raw/
+dataset/*/processed/
+dataset/*/images/
+dataset/*/labels/
+
+# ===== 모델 가중치 =====
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+runs/
+weights/
+
+# ===== 파이썬 =====
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ===== 로그·캐시 =====
+logs/*.log
+*.tmp
+*.bak
+.sedbak/
+
+# ===== 아카이브 =====
+*.tar.gz
+*.zip
+backup/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== 예외: 메타 문서는 반드시 포함 =====
+!dataset/*/meta/
+!dataset/*/meta/**
+!.gitkeep
